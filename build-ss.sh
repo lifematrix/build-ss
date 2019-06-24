@@ -15,5 +15,3 @@ git submodule update --init --recursive
 ./configure
 make && make install
 
-adduser --system --no-create-home --group shadowsocks
-mkdir -m 755 /etc/shadowsocks
