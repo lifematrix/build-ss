@@ -9,7 +9,7 @@ sudo cp local.conf /etc/sysctl.d/local.conf
 
 # create ss server
 sudo mkdir -p -m 755 /etc/shadowsocks
-sudo cp shadowsocks.json /etc/shadowsocks.json
+sudo cp shadowsocks.json /etc/shadowsocks/shadowsocks.json
 sudo sysctl --system
 
 # create systemd service
